@@ -1,0 +1,88 @@
+.admin-main {
+  max-width: 900px;
+  margin: 4rem auto;
+  color: #00bcd4;
+  padding: 0 1rem;
+  user-select: none;
+}
+
+.admin-main h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #00e5ff;
+  text-shadow: 0 0 10px #00e5ff;
+}
+
+.stats {
+  margin-bottom: 3rem;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.user-list-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 3rem;
+}
+
+.user-list-section th,
+.user-list-section td {
+  border: 1px solid #00bcd4;
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.user-list-section th {
+  background-color: rgba(0, 188, 212, 0.3);
+}
+
+.user-list-section tr:hover {
+  background-color: rgba(0, 188, 212, 0.1);
+}
+
+.delete-btn {
+  background-color: #ff4081;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #e73370;
+}
+
+.add-user-section form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+.add-user-section input {
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+}
+
+.add-user-section button {
+  padding: 1rem;
+  border-radius: 50px;
+  border: none;
+  background-color: #00bcd4;
+  color: #111;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 0 0 20px #00bcd4;
+  transition: background-color 0.3s ease;
+}
+
+.add-user-section button:hover {
+  background-color: #00e5ff;
+}
